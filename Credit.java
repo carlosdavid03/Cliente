@@ -9,21 +9,31 @@ package poo;
  *
  * @author Fuller 101
  */
-public class Cash extends Payment {
+public class Credit extends Payment{
     
-     public int cashaten;
+     public int number;
+    public String tipo; 
 
-    public Cash(int cashaten, int amount) {
+    public Credit(int number, String tipo, int amount) {
         super(amount);
-        this.cashaten = cashaten;
+        this.number = number;
+        this.tipo = tipo;
     }
 
-    public int getCashaten() {
-        return cashaten;
+    public int getNumber() {
+        return number;
     }
 
-    public void setCashaten(int cashaten) {
-        this.cashaten = cashaten;
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
 
      @Override
@@ -35,6 +45,9 @@ public class Cash extends Payment {
     public void setAmount(int amount) {
         this.amount = amount;
     }
-     
+
+ 
+   
+  
     
 }

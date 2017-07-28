@@ -9,32 +9,21 @@ package poo;
  *
  * @author Fuller 101
  */
-public class Cash extends Payment {
+public class Payment {
+       public int amount;
     
-     public int cashaten;
 
-    public Cash(int cashaten, int amount) {
-        super(amount);
-        this.cashaten = cashaten;
+    public Payment(int amount) {
+        this.amount = amount;
     }
 
-    public int getCashaten() {
-        return cashaten;
-    }
-
-    public void setCashaten(int cashaten) {
-        this.cashaten = cashaten;
-    }
-
-     @Override
     public int getAmount() {
         return amount;
     }
 
-     @Override
     public void setAmount(int amount) {
         this.amount = amount;
     }
-     
+    
     
 }
