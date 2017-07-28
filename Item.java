@@ -5,6 +5,8 @@
  */
 package poo;
 
+import java.util.List;
+
 /**
  *
  * @author Fuller 101
@@ -14,6 +16,7 @@ public class Item {
      
     public String shipping;
     public String description;
+    
 
     public Item(String shipping, String description) {
         this.shipping = shipping;
