@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package poo;
+package poo1;
 
 /**
  *
- * @author Fuller 101
+ * @author Carlos Ricardo
  */
 public class Orderdetail {
     
-    public String taxstatus;
+     public String taxstatus;
     public int quantity;
     public String name;
 
@@ -44,8 +44,5 @@ public class Orderdetail {
     public void setName(String name) {
         this.name = name;
     }
-    
-
-   
     
 }

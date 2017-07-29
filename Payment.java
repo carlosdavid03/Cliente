@@ -3,14 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package poo;
+package poo1;
 
 /**
  *
- * @author Fuller 101
+ * @author Carlos Ricardo
  */
 public class Payment {
-       public int amount;
+    
+     public int amount;
     
 
     public Payment(int amount) {
@@ -24,6 +25,5 @@ public class Payment {
     public void setAmount(int amount) {
         this.amount = amount;
     }
-    
     
 }

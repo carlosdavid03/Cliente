@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package poo;
+package poo1;
 
 /**
  *
- * @author Fuller 101
+ * @author Carlos Ricardo
  */
-public class Credit extends Payment{
+public class Credit extends Payment {
     
      public int number;
     public String tipo; 
@@ -46,8 +46,4 @@ public class Credit extends Payment{
         this.amount = amount;
     }
 
- 
-   
-  
-    
 }

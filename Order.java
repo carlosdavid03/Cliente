@@ -3,44 +3,42 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package poo;
-
-import java.util.Date;
-import java.util.List;
+package poo1;
 
 /**
  *
- * @author Fuller 101
+ * @author Carlos Ricardo
  */
 public class Order {
     
-    public int medpago;
+    public String medpago;
+    public int id;
     public String status;
-    private Date fecha;
-    public Customer name;
-    public String id;
+    public String fecha;
     public Payment pay;
-    
-    List<Orderdetail> orderdetail;
-    List<Payment> payment;
 
-    public Order(int medpago, String status, Date fecha, Customer name, String id, Payment pay, List<Orderdetail> orderdetail, List<Payment> payment) {
+    public Order(String medpago, int id, String status, String fecha, Payment pay) {
         this.medpago = medpago;
+        this.id = id;
         this.status = status;
         this.fecha = fecha;
-        this.name = name;
-        this.id = id;
         this.pay = pay;
-        this.orderdetail = orderdetail;
-        this.payment = payment;
     }
 
-    public int getMedpago() {
+    public String getMedpago() {
         return medpago;
     }
 
-    public void setMedpago(int medpago) {
+    public void setMedpago(String medpago) {
         this.medpago = medpago;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getStatus() {
@@ -51,28 +49,12 @@ public class Order {
         this.status = status;
     }
 
-    public Date getFecha() {
+    public String getFecha() {
         return fecha;
     }
 
-    public void setFecha(Date fecha) {
+    public void setFecha(String fecha) {
         this.fecha = fecha;
-    }
-
-    public Customer getName() {
-        return name;
-    }
-
-    public void setName(Customer name) {
-        this.name = name;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 
     public Payment getPay() {
@@ -83,22 +65,6 @@ public class Order {
         this.pay = pay;
     }
 
-    public List<Orderdetail> getOrderdetail() {
-        return orderdetail;
-    }
 
-    public void setOrderdetail(List<Orderdetail> orderdetail) {
-        this.orderdetail = orderdetail;
-    }
-
-    public List<Payment> getPayment() {
-        return payment;
-    }
-
-    public void setPayment(List<Payment> payment) {
-        this.payment = payment;
-    }
-
-    
     
 }

@@ -3,17 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package poo;
-
-import java.util.List;
+package poo1;
 
 /**
  *
- * @author Fuller 101
+ * @author Carlos Ricardo
  */
 public class Item {
     
-     
+      
     public String shipping;
     public String description;
     
@@ -38,4 +36,5 @@ public class Item {
     public void setDescription(String description) {
         this.description = description;
     }
+    
 }

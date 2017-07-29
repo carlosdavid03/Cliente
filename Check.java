@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package poo;
+package poo1;
 
 /**
  *
- * @author Fuller 101
+ * @author Carlos Ricardo
  */
-public class Check extends Payment {
+public class Check extends Payment{
     
-    public String name;
+     public String name;
     public int idbank;
 
     public Check(String name, int idbank, int amount) {
@@ -47,5 +47,4 @@ public class Check extends Payment {
     }
 
    
-    
 }

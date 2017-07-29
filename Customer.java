@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package poo;
+package poo1;
 
 /**
  *
- * @author Fuller 101
+ * @author Carlos Ricardo
  */
 public class Customer {
     
-    
+     
     public String adress;
     private String name;
     public Order orden;
@@ -46,5 +46,4 @@ public class Customer {
         this.orden = orden;
     }
 
- 
 }
